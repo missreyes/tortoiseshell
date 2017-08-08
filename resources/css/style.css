@@ -220,6 +220,86 @@ footer {
 
 .footer-text {
   display: flex;
-  min-width: 960px;
+  width: 960px;
   /*border: 2px solid blue;*/
+}
+
+@media only screen and (max-width: 768px) {
+  html{
+    width: 768px;
+  }
+
+  .bg-container {
+    min-width: 768px;
+    height: 22rem; /*R*/
+    /*border: 2px solid yellow;*/
+  }
+
+  header {
+    max-width: 768px; /*N*/
+    margin: 0;
+    /*border: 2px solid orange;*/
+  }
+
+  #title-container {
+   max-width: 768px;
+   /*border: 2px solid green;*/
+  }
+
+  #title-container nav{
+    width: 350px;
+    /*border: 2px solid purple;*/
+  }
+
+  .site-container {
+    min-width: 768px;
+    /*border: 2px solid red;*/
+  }
+
+  /*wht-box's*/
+  .wht-box {
+    width: 25rem;
+    height: 3rem;
+    margin: 9rem 2rem 0 0;
+    /*border: 2px solid blue;*/
+  }
+
+  /*wht-box Headers*/
+  .wht-box h2 {
+    font-size: 1.33rem;
+    margin: .75rem 4rem;
+    /*border: 2px solid purple;*/
+  }
+
+  section {
+    min-width: 768px; /*R*/
+    /*border: 2px solid green;*/
+  }
+
+  .services {
+    max-width: 768px;
+    /*border: 2px solid purple;*/
+  }
+
+  .office-info {
+    max-width: 768px; /*N*/
+  }
+
+  footer {
+    width: 768px;
+    /*border: 2px solid purple;*/
+  }
+
+  .logo2 {
+    max-width: 768px;
+    margin: 0;
+    /*border: 2px solid yellow;*/
+  }
+
+  .footer-text {
+    max-width: 468px;
+    margin: 0;
+    /*border: 2px solid blue;*/
+  }
+
 }
