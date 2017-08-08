@@ -1,0 +1,225 @@
+body {
+  background-color: white; /*R*/
+  font-family: Helvetica; /*R*/
+  font-size: 18px; /*R*/
+  line-height: 1.4; /*R*/
+  color: black; /*R*/
+  display: flex;/*N*/
+  flex-direction: column;/*N*/
+  justify-content: center;
+  align-items: center;
+}
+
+/*Everything listed until align-items needed*/
+.bg-container {
+  display: flex; /*N*/
+  width: 100%; /*N*/
+  height: 30rem; /*R*/
+  background-image: url(/Users/shari/Projects/tortoiseshell/resources/images/glasses-bg.png); /*N*/
+  background-repeat: no-repeat; /*N*/
+  background-position: center;
+  background-size: cover; /*N*/
+  justify-content: center; /*N*/
+  align-content: center;
+  flex-direction: row; /*N*/
+  /*border: 2px solid yellow;*/
+}
+
+/* Header */
+header {
+  display: flex; /*N*/
+  width: 960px; /*N*/
+  justify-content: space-between; /*N*/
+  background-color: cadetblue; /*N*/
+  color: white; /*N*/
+  flex-direction: row; /*N*/
+  position: fixed; /*N*/
+  z-index: 20; /*N*/
+  margin-top: 1rem; /*N*/
+  /*border: 2px solid orange;*/
+}
+
+#title-container {
+  display: flex;
+  width: 960px;
+}
+
+.logo {
+  display: flex;
+  width: auto;
+  align-items: center;
+  /*border: 2px solid green;*/
+}
+
+.logo img {
+  display: flex;
+  width: auto;
+  height: 1.5rem;
+  margin: 1rem 0 1rem 2rem;
+  /*border: 2px solid blue;*/
+}
+
+.logo h1 {
+  display: flex;
+  width: auto;
+  font-size: 1rem;
+  margin: 1rem;
+  color: white;
+  /*border: 2px solid yellow;*/
+  }
+
+#title-container nav{
+  display: flex;
+  width: 650px;
+  height: auto;
+  justify-content: flex-end;
+  /*border: 2px solid purple;*/
+}
+
+#title-container span {
+  display: block;
+  margin: 1rem 2rem;
+  /*border: 2px solid yellow;*/
+}
+
+span a {
+  color: white;
+}
+
+/*960px box container*/
+.site-container {
+  display: flex;
+  min-width: 1000px;
+  height: auto;
+  flex-flow: column wrap;
+  align-content: flex-end;
+  align-items: flex-end;
+  /*border: 2px solid red;*/
+}
+
+/*wht-box's*/
+.wht-box {
+  display: flex;
+  width: 35rem;
+  max-height: 39em;
+  margin: 14rem 0 0 0;
+  background-color: white;
+  flex-flow: column wrap;
+  justify-content: center;
+  z-index: 10; /*N*/
+  /*border: 2px solid blue;*/
+}
+
+/*wht-box Headers*/
+.wht-box h2 {
+  display: flex;
+  font-size: 2rem;
+  font-weight: bold;
+  line-height: 1.2;
+  margin: 1.5rem 5rem;
+  /*border: 2px solid purple;*/
+}
+
+/*New Section Container*/
+section {
+  display: flex;
+  width: 100%; /*R*/
+  height: auto;
+  margin: 0;
+  flex-flow: column;; /*N*/
+  justify-content: center;
+  align-items: center;
+  /*border: 2px solid green;*/
+}
+
+/*product-list container*/
+.services {
+  display: flex;
+  width: 960px;
+  height: 8rem;
+  justify-content: center;
+  margin: 3rem 0 3rem 0;
+  /*border: 2px solid purple;*/
+}
+
+/*product-items images*/
+.service-item {
+  display: flex;/*N*/
+  flex-direction: column;
+  width: 5rem;
+  height: 8rem;
+  align-items: center;/*N*/
+  justify-content: space-between;
+  margin: 0 3rem 0 3rem;
+  /*border: 1px solid pink;*/
+}
+
+.service-item img {
+  width: 3.5rem;
+  /*border: 2px solid red;*/
+}
+
+.service-item p {
+  text-align: center;
+}
+
+/*Office's info container*/
+.office-info {
+  display: flex; /*N*/
+  max-width: 960px; /*N*/
+  margin-bottom: 5rem; /*N*/
+  justify-content: center; /*N*/
+}
+
+.philosophy {
+  margin-right: 2.5%;
+}
+
+.philosophy,
+.appointments {
+  width: 35%;
+}
+
+.office-info h4 {
+  width: 50%;
+  height: auto;
+  background-color: cadetblue; /*R*/
+  color: white; /*R*/
+  font-size: 1rem; /*R*/
+  font-weight: bold; /*R*/
+  padding: 0.5rem 1.25rem;
+  text-align: left;
+  margin-bottom: 1rem;
+  /*border: 2px solid blue;*/
+}
+
+/*All Footer Info.*/
+footer {
+  display: flex;
+  width: 100%;
+  height: 9.5rem;
+  margin: 0;
+  background-color: azure;
+  align-items: center;
+  justify-content: center;
+  /*border: 2px solid purple;*/
+}
+
+.logo2 {
+  display: flex;
+  width: 960px;
+  align-items: center;
+  padding: 4rem 0 4rem 4rem;
+  /*border: 2px solid yellow;*/
+}
+
+.logo2 img {
+  height: 1.5rem;
+  margin-right: 1rem;
+}
+
+.footer-text {
+  display: flex;
+  min-width: 960px;
+  /*border: 2px solid blue;*/
+}
