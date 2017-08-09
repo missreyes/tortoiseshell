@@ -89,7 +89,7 @@ span a {
 /*960px box container*/
 .site-container {
   display: flex;
-  min-width: 1000px;
+  width: 1000px;
   height: auto;
   flex-flow: column wrap;
   align-content: flex-end;
@@ -225,34 +225,29 @@ footer {
 }
 
 @media only screen and (max-width: 768px) {
-  html{
-    width: 768px;
-  }
-
   .bg-container {
-    min-width: 768px;
     height: 22rem; /*R*/
     /*border: 2px solid yellow;*/
   }
 
   header {
-    max-width: 768px; /*N*/
+    width: 100%; /*N*/
     margin: 0;
     /*border: 2px solid orange;*/
   }
 
   #title-container {
-   max-width: 768px;
+   width: 100%;
    /*border: 2px solid green;*/
   }
 
   #title-container nav{
-    width: 350px;
+    width: auto;
     /*border: 2px solid purple;*/
   }
 
   .site-container {
-    min-width: 768px;
+    width: 100%;
     /*border: 2px solid red;*/
   }
 
@@ -272,26 +267,26 @@ footer {
   }
 
   section {
-    min-width: 768px; /*R*/
+    width: 100%; /*R*/
     /*border: 2px solid green;*/
   }
 
   .services {
-    max-width: 768px;
+    width: 100%;
     /*border: 2px solid purple;*/
   }
 
   .office-info {
-    max-width: 768px; /*N*/
+    width: 100%; /*N*/
   }
 
   footer {
-    width: 768px;
+    width: 100%;
     /*border: 2px solid purple;*/
   }
 
   .logo2 {
-    max-width: 768px;
+    width: 100%;
     margin: 0;
     /*border: 2px solid yellow;*/
   }
