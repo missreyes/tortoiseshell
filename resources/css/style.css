@@ -225,8 +225,14 @@ footer {
 }
 
 @media only screen  and (min-width: 1025px) and  (max-width: 2000px) {
-  .menu2  {
-    display: none;
+  #title-container .menu2  {
+   display: none;
+   /*border: 2px solid purple;*/
+  }
+
+  #title-container .menu2 span {
+  display: none;
+  /*border: 2px solid purple;*/
   }
 }
 
@@ -247,14 +253,20 @@ footer {
    /*border: 2px solid green;*/
   }
 
-  #title-container nav{
-    width: auto;
+  #title-container nav {
+    width: auto;  /*N*/
     /*border: 2px solid purple;*/
   }
 
-  .menu2  {
-    display: none;
+  #title-container .menu2  {
+   display: none;
+   /*border: 2px solid purple;*/
   }
+
+ #title-container .menu2 span {
+  display: none;
+  /*border: 2px solid purple;*/
+ }
 
   .site-container {
     width: 100%;
@@ -331,7 +343,8 @@ footer {
   }
 
   #title-container nav{
-    width: 100%;
+    width: auto;
+    justify-content: space-between;
     /*border: 2px solid purple;*/
   }
 
@@ -339,10 +352,15 @@ footer {
     display: none;
   }
 
+  #title-container .menu2  {
+    width: 100%;
+    display: block;
+    text-align: right;
+   /*border: 2px solid purple;*/
+  }
  #title-container .menu2 span {
-  width: 100%;
-  display: block;
-  margin: 1rem 2rem;
+   display: block;
+   margin: 1rem 2rem;
   /*border: 2px solid purple;*/
  }
 
