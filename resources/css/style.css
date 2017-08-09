@@ -15,7 +15,7 @@ body {
   display: flex; /*N*/
   width: 100%; /*N*/
   height: 30rem; /*R*/
-  background-image: url(/Users/shari/Projects/tortoiseshell/resources/images/glasses-bg.png); /*N*/
+  background-image:  url(/Users/shari/Projects/tortoiseshell/resources/images/glasses-bg.png); /*N*/
   background-repeat: no-repeat; /*N*/
   background-position: center;
   background-size: cover; /*N*/
@@ -68,7 +68,7 @@ header {
   /*border: 2px solid yellow;*/
   }
 
-#title-container nav{
+#title-container nav {
   display: flex;
   width: 650px;
   height: auto;
@@ -224,6 +224,12 @@ footer {
   /*border: 2px solid blue;*/
 }
 
+@media only screen  and (min-width: 1025px) and  (max-width: 2000px) {
+  .menu2  {
+    display: none;
+  }
+}
+
 @media only screen and (max-width: 768px) {
   .bg-container {
     height: 22rem; /*R*/
@@ -244,6 +250,10 @@ footer {
   #title-container nav{
     width: auto;
     /*border: 2px solid purple;*/
+  }
+
+  .menu2  {
+    display: none;
   }
 
   .site-container {
@@ -294,6 +304,140 @@ footer {
   .footer-text {
     max-width: 468px;
     margin: 0;
+    /*border: 2px solid blue;*/
+  }
+
+}
+
+@media only screen and (max-width: 470px) {
+  .bg-container {
+    height: 17rem; /*R*/
+    /*border: 2px solid yellow;*/
+  }
+
+  header {
+    width: 100%; /*N*/
+    margin: 0;
+    /*border: 2px solid orange;*/
+  }
+
+  #title-container {
+   width: 100%;
+   /*border: 2px solid green;*/
+  }
+
+  .logo h1 {
+    display: none;
+  }
+
+  #title-container nav{
+    width: 100%;
+    /*border: 2px solid purple;*/
+  }
+
+  #title-container .menu1 span {
+    display: none;
+  }
+
+ #title-container .menu2 span {
+  width: 100%;
+  display: block;
+  margin: 1rem 2rem;
+  /*border: 2px solid purple;*/
+ }
+
+ .bg-container {
+   background-position: 20%;
+   /*border: 2px solid yellow;*/
+ }
+
+  .site-container {
+    width: 100%;
+    /*justify-content: center;
+    text-align: center;*/
+    /*border: 2px solid red;*/
+  }
+
+  /*wht-box's*/
+  .wht-box {
+    width: 100%;
+    height: 3rem;
+    margin-top: 12rem;
+    margin-right: 0;
+    /*border: 2px solid blue;*/
+  }
+
+  /*wht-box Headers*/
+  .wht-box h2 {
+    font-size: 1rem;
+    margin: 1rem 0;
+    justify-content: center;
+    /*border: 2px solid purple;*/
+  }
+
+  section {
+    width: 100%; /*R*/
+    /*border: 2px solid green;*/
+  }
+
+  .services {
+    width: 100%;
+    height: auto;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 3.77rem 0 3.77rem 0;
+    /*border: 2px solid purple;*/
+  }
+
+  .service-item {
+    margin: 1.54rem 0 1.54rem 0;
+    /*border: 1px solid pink;*/
+  }
+
+  .service-item p {
+    text-align: center;
+    font-size: 0.77rem;
+    /*border: 1px solid blue;*/
+  }
+
+  .office-info {
+    width: 100%; /*N*/
+    height: auto;
+    flex-flow: column wrap;
+    /*border: 2px solid blue;*/
+  }
+
+  .philosophy,
+  .appointments {
+    width: 91%;
+    font-size: 0.77rem;
+    margin-bottom: 4rem;
+    /*border: 2px solid yellow;*/
+  }
+
+  .office-info h4 {
+    width: 100%;
+    text-align: center;
+    /*border: 2px solid blue;*/
+  }
+
+  footer {
+    width: 100%;
+    /*border: 2px solid purple;*/
+  }
+
+  .logo2 {
+    width: 100%;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    /*border: 2px solid yellow;*/
+  }
+
+  .footer-text {
+    display: none;
     /*border: 2px solid blue;*/
   }
 
