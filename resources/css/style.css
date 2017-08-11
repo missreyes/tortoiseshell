@@ -15,7 +15,7 @@ body {
   display: flex; /*N*/
   width: 100%; /*N*/
   height: 30rem; /*R*/
-  background-image:  url(../resources/images/glasses-bg.png); /*N*/
+  background-image:  url("../resources/images/glasses-bg.png"); /*N*/
   background-repeat: no-repeat; /*N*/
   background-position: center;
   background-size: cover; /*N*/
