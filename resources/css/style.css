@@ -15,7 +15,7 @@ body {
   display: flex; /*N*/
   width: 100%; /*N*/
   height: 30rem; /*R*/
-  background-image:  url(./resources/images/glasses-bg.png); /*N*/
+  background-image:  url(../resources/images/glasses-bg.png); /*N*/
   background-repeat: no-repeat; /*N*/
   background-position: center;
   background-size: cover; /*N*/
@@ -224,7 +224,7 @@ footer {
   /*border: 2px solid blue;*/
 }
 
-@media only screen  and (min-width: 1025px) and  (max-width: 2000px) {
+@media only screen  and (min-width: 767px) and  (max-width: 2000px) {
   #title-container .menu2  {
    display: none;
    /*border: 2px solid purple;*/
